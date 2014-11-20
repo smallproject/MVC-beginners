@@ -31,5 +31,4 @@ namespace PartyInvites.Models
         public bool agree { get; set; }
     }
 
-    public class UsersContext : 
 }
