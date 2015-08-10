@@ -41,9 +41,9 @@ namespace PartyInvites.Controllers
             DateTime partydate = DateTime.Now.AddDays(1);
             string when = string.Format("{0}", partydate.ToLongDateString());
             ViewBag.when = when;
-
-
+            
             return View();
+
         }
 
         [HttpGet]
